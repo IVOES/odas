@@ -1,0 +1,1421 @@
+demo/odaslive/configs.c:7:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/configs.c:258:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/main.c:185:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("| + Initializing objects............. "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:179:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:185:29: note: Second condition
+                if (verbose == 0x01) printf("| + Initializing objects............. "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:195:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("| + Processing....................... "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:189:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:195:29: note: Second condition
+                if (verbose == 0x01) printf("| + Processing....................... "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:208:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("| + Free memory...................... "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:202:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:208:29: note: Second condition
+                if (verbose == 0x01) printf("| + Free memory...................... "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:220:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) profiler_printf(prf);
+                            ^
+demo/odaslive/main.c:214:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:220:29: note: Second condition
+                if (verbose == 0x01) profiler_printf(prf);
+                            ^
+demo/odaslive/main.c:246:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("| + Initializing objects............. "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:240:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:246:29: note: Second condition
+                if (verbose == 0x01) printf("| + Initializing objects............. "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:268:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("| + Threads running.................. "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:262:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:268:29: note: Second condition
+                if (verbose == 0x01) printf("| + Threads running.................. "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:278:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("| + Free memory...................... "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:272:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:278:29: note: Second condition
+                if (verbose == 0x01) printf("| + Free memory...................... "); fflush(stdout);
+                            ^
+demo/odaslive/main.c:286:29: style: The if condition is the same as the previous if condition [duplicateCondition]
+                if (verbose == 0x01) printf("+--------------------------------------------+\n");
+                            ^
+demo/odaslive/main.c:284:29: note: First condition
+                if (verbose == 0x01) printf("[Done] |\n");
+                            ^
+demo/odaslive/main.c:286:29: note: Second condition
+                if (verbose == 0x01) printf("+--------------------------------------------+\n");
+                            ^
+demo/odaslive/objects.c:7:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/objects.c:564:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/objects.c:817:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/objects.c:1378:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/parameters.c:594:21: warning: %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+                    sprintf(tmpLabel, "general.mics.[%u].angle.[%u]", iChannel, 0);
+                    ^
+demo/odaslive/parameters.c:599:21: warning: %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+                    sprintf(tmpLabel, "general.mics.[%u].angle.[%u]", iChannel, 1);
+                    ^
+demo/odaslive/parameters.c:1317:21: warning: %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+                    sprintf(tmpLabel, "general.mics.[%u].angle.[%u]", iChannel, 0);
+                    ^
+demo/odaslive/parameters.c:1322:21: warning: %u in format string (no. 2) requires 'unsigned int' but the argument type is 'signed int'. [invalidPrintfArgType_uint]
+                    sprintf(tmpLabel, "general.mics.[%u].angle.[%u]", iChannel, 1);
+                    ^
+demo/odaslive/parameters.c:302:16: style: The scope of the variable 'tmpStr1' can be reduced. [variableScope]
+        char * tmpStr1;
+               ^
+demo/odaslive/parameters.c:837:15: style: The scope of the variable 'x' can be reduced. [variableScope]
+        float x, y, z;
+              ^
+demo/odaslive/parameters.c:837:18: style: The scope of the variable 'y' can be reduced. [variableScope]
+        float x, y, z;
+                 ^
+demo/odaslive/parameters.c:837:21: style: The scope of the variable 'z' can be reduced. [variableScope]
+        float x, y, z;
+                    ^
+demo/odaslive/parameters.c:838:16: style: The scope of the variable 'tmpStr1' can be reduced. [variableScope]
+        char * tmpStr1;
+               ^
+demo/odaslive/parameters.c:839:16: style: The scope of the variable 'tmpStr2' can be reduced. [variableScope]
+        char * tmpStr2;
+               ^
+demo/odaslive/parameters.c:424:22: style: Unused variable: halfFrameSize [unusedVariable]
+        unsigned int halfFrameSize;
+                     ^
+demo/odaslive/parameters.c:425:22: style: Unused variable: nChannels [unusedVariable]
+        unsigned int nChannels;
+                     ^
+demo/odaslive/parameters.c:426:22: style: Unused variable: fS [unusedVariable]
+        unsigned int fS;
+                     ^
+demo/odaslive/parameters.c:496:22: style: Unused variable: halfFrameSize [unusedVariable]
+        unsigned int halfFrameSize;
+                     ^
+demo/odaslive/parameters.c:497:22: style: Unused variable: nChannels [unusedVariable]
+        unsigned int nChannels;
+                     ^
+demo/odaslive/parameters.c:498:22: style: Unused variable: fS [unusedVariable]
+        unsigned int fS;
+                     ^
+demo/odaslive/parameters.c:536:16: style: Unused variable: tmpString [unusedVariable]
+        char * tmpString;
+               ^
+demo/odaslive/parameters.c:762:16: style: Unused variable: tmpLabel [unusedVariable]
+        char * tmpLabel;
+               ^
+demo/odaslive/parameters.c:764:22: style: Unused variable: tmpInt2 [unusedVariable]
+        unsigned int tmpInt2;
+                     ^
+demo/odaslive/parameters.c:1142:16: style: Unused variable: tmpLabel [unusedVariable]
+        char * tmpLabel;
+               ^
+demo/odaslive/parameters.c:1144:22: style: Unused variable: tmpInt2 [unusedVariable]
+        unsigned int tmpInt2;
+                     ^
+demo/odaslive/parameters.c:1492:22: style: Unused variable: halfFrameSize [unusedVariable]
+        unsigned int halfFrameSize;
+                     ^
+demo/odaslive/parameters.c:1493:22: style: Unused variable: nChannels [unusedVariable]
+        unsigned int nChannels;
+                     ^
+demo/odaslive/parameters.c:1494:22: style: Unused variable: fS [unusedVariable]
+        unsigned int fS;
+                     ^
+demo/odaslive/parameters.c:1524:22: style: Unused variable: halfFrameSize [unusedVariable]
+        unsigned int halfFrameSize;
+                     ^
+demo/odaslive/parameters.c:1525:22: style: Unused variable: nChannels [unusedVariable]
+        unsigned int nChannels;
+                     ^
+demo/odaslive/parameters.c:1526:22: style: Unused variable: fS [unusedVariable]
+        unsigned int fS;
+                     ^
+demo/odaslive/profiler.c:101:18: style: Variable 'injector' is assigned a value that is never used. [unreadVariable]
+        injector = prf->inj_targets_sst_prf;
+                 ^
+demo/odaslive/threads.c:631:13: style: The scope of the variable 'rtnResample' can be reduced. [variableScope]
+        int rtnResample;
+            ^
+demo/odaslive/threads.c:6:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/threads.c:270:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/threads.c:516:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/threads.c:573:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+demo/odaslive/threads.c:632:22: style: Unused variable: iSink [unusedVariable]
+        unsigned int iSink;
+                     ^
+src/aconnector/acon_categories.c:79:30: style: The scope of the variable 'msg_categories_in' can be reduced. [variableScope]
+        msg_categories_obj * msg_categories_in;
+                             ^
+src/aconnector/acon_categories.c:85:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/aconnector/acon_hops.c:79:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/aconnector/acon_hops.c:85:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/aconnector/acon_pots.c:79:24: style: The scope of the variable 'msg_pots_in' can be reduced. [variableScope]
+        msg_pots_obj * msg_pots_in;
+                       ^
+src/aconnector/acon_pots.c:85:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/aconnector/acon_powers.c:79:26: style: The scope of the variable 'msg_powers_in' can be reduced. [variableScope]
+        msg_powers_obj * msg_powers_in;
+                         ^
+src/aconnector/acon_powers.c:85:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/aconnector/acon_spectra.c:79:27: style: The scope of the variable 'msg_spectra_in' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_in;
+                          ^
+src/aconnector/acon_spectra.c:85:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/aconnector/acon_targets.c:78:27: style: The scope of the variable 'msg_targets_in' can be reduced. [variableScope]
+        msg_targets_obj * msg_targets_in;
+                          ^
+src/aconnector/acon_targets.c:84:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/aconnector/acon_tracks.c:78:26: style: The scope of the variable 'msg_tracks_in' can be reduced. [variableScope]
+        msg_tracks_obj * msg_tracks_in;
+                         ^
+src/aconnector/acon_tracks.c:84:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/ainjector/ainj_targets.c:75:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/ainjector/ainj_targets.c:76:27: style: The scope of the variable 'msg_targets_out' can be reduced. [variableScope]
+        msg_targets_obj * msg_targets_out;
+                          ^
+src/ainjector/ainj_targets.c:77:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_classify.c:92:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/amodule/amod_classify.c:93:26: style: The scope of the variable 'msg_tracks_in' can be reduced. [variableScope]
+        msg_tracks_obj * msg_tracks_in;
+                         ^
+src/amodule/amod_classify.c:94:30: style: The scope of the variable 'msg_categories_out' can be reduced. [variableScope]
+        msg_categories_obj * msg_categories_out;
+                             ^
+src/amodule/amod_classify.c:95:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_istft.c:89:27: style: The scope of the variable 'msg_spectra_in' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_in;
+                          ^
+src/amodule/amod_istft.c:90:24: style: The scope of the variable 'msg_hops_out' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_out;
+                       ^
+src/amodule/amod_istft.c:91:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_mapping.c:89:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/amodule/amod_mapping.c:90:24: style: The scope of the variable 'msg_hops_out' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_out;
+                       ^
+src/amodule/amod_mapping.c:91:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_noise.c:89:27: style: The scope of the variable 'msg_spectra_in' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_in;
+                          ^
+src/amodule/amod_noise.c:90:26: style: The scope of the variable 'msg_powers_out' can be reduced. [variableScope]
+        msg_powers_obj * msg_powers_out;
+                         ^
+src/amodule/amod_noise.c:91:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_ssl.c:89:27: style: The scope of the variable 'msg_spectra_in' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_in;
+                          ^
+src/amodule/amod_ssl.c:90:24: style: The scope of the variable 'msg_pots_out' can be reduced. [variableScope]
+        msg_pots_obj * msg_pots_out;
+                       ^
+src/amodule/amod_ssl.c:91:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_sss.c:98:27: style: The scope of the variable 'msg_spectra_in' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_in;
+                          ^
+src/amodule/amod_sss.c:99:26: style: The scope of the variable 'msg_powers_in' can be reduced. [variableScope]
+        msg_powers_obj * msg_powers_in;
+                         ^
+src/amodule/amod_sss.c:100:26: style: The scope of the variable 'msg_tracks_in' can be reduced. [variableScope]
+        msg_tracks_obj * msg_tracks_in;
+                         ^
+src/amodule/amod_sss.c:101:27: style: The scope of the variable 'msg_spectra_out1' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_out1;
+                          ^
+src/amodule/amod_sss.c:102:27: style: The scope of the variable 'msg_spectra_out2' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_out2;
+                          ^
+src/amodule/amod_sss.c:103:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_sst.c:92:24: style: The scope of the variable 'msg_pots_in' can be reduced. [variableScope]
+        msg_pots_obj * msg_pots_in;
+                       ^
+src/amodule/amod_sst.c:93:27: style: The scope of the variable 'msg_targets_in' can be reduced. [variableScope]
+        msg_targets_obj * msg_targets_in;
+                          ^
+src/amodule/amod_sst.c:94:26: style: The scope of the variable 'msg_tracks_out' can be reduced. [variableScope]
+        msg_tracks_obj * msg_tracks_out;
+                         ^
+src/amodule/amod_sst.c:95:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_stft.c:89:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/amodule/amod_stft.c:90:27: style: The scope of the variable 'msg_spectra_out' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_out;
+                          ^
+src/amodule/amod_stft.c:91:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/amodule/amod_volume.c:89:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/amodule/amod_volume.c:90:24: style: The scope of the variable 'msg_hops_out' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_out;
+                       ^
+src/amodule/amod_volume.c:91:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asink/asnk_categories.c:71:30: style: The scope of the variable 'msg_categories_in' can be reduced. [variableScope]
+        msg_categories_obj * msg_categories_in;
+                             ^
+src/asink/asnk_categories.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asink/asnk_hops.c:71:24: style: The scope of the variable 'msg_hops_in' can be reduced. [variableScope]
+        msg_hops_obj * msg_hops_in;
+                       ^
+src/asink/asnk_hops.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asink/asnk_pots.c:71:24: style: The scope of the variable 'msg_pots_in' can be reduced. [variableScope]
+        msg_pots_obj * msg_pots_in;
+                       ^
+src/asink/asnk_pots.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asink/asnk_powers.c:71:26: style: The scope of the variable 'msg_powers_in' can be reduced. [variableScope]
+        msg_powers_obj * msg_powers_in;
+                         ^
+src/asink/asnk_powers.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asink/asnk_spectra.c:71:27: style: The scope of the variable 'msg_spectra_in' can be reduced. [variableScope]
+        msg_spectra_obj * msg_spectra_in;
+                          ^
+src/asink/asnk_spectra.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asink/asnk_tracks.c:71:26: style: The scope of the variable 'msg_tracks_in' can be reduced. [variableScope]
+        msg_tracks_obj * msg_tracks_in;
+                         ^
+src/asink/asnk_tracks.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/asource/asrc_hops.c:72:13: style: The scope of the variable 'rtnValue' can be reduced. [variableScope]
+        int rtnValue;
+            ^
+src/init/combining.c:40:20: style: The scope of the variable 'carry' can be reduced. [variableScope]
+        signed int carry;
+                   ^
+src/init/delay.c:43:15: style: Unused variable: diff [unusedVariable]
+        float diff, dist, tau;
+              ^
+src/init/directivity.c:154:15: style: The scope of the variable 'ux' can be reduced. [variableScope]
+        float ux, uy, uz, uNorm;
+              ^
+src/init/directivity.c:154:19: style: The scope of the variable 'uy' can be reduced. [variableScope]
+        float ux, uy, uz, uNorm;
+                  ^
+src/init/directivity.c:154:23: style: The scope of the variable 'uz' can be reduced. [variableScope]
+        float ux, uy, uz, uNorm;
+                      ^
+src/init/directivity.c:154:27: style: The scope of the variable 'uNorm' can be reduced. [variableScope]
+        float ux, uy, uz, uNorm;
+                          ^
+src/init/directivity.c:165:15: style: The scope of the variable 'gainFilters' can be reduced. [variableScope]
+        float gainFilters;
+              ^
+src/init/directivity.c:251:22: style: The scope of the variable 'iPair' can be reduced. [variableScope]
+        unsigned int iPair;
+                     ^
+src/init/hit.c:63:15: style: The scope of the variable 'tdoa' can be reduced. [variableScope]
+        float tdoa;
+              ^
+src/init/hit.c:117:22: style: The scope of the variable 'count' can be reduced. [variableScope]
+        unsigned int count;
+                     ^
+src/init/hit.c:248:15: style: The scope of the variable 'minValue' can be reduced. [variableScope]
+        float minValue;
+              ^
+src/init/linking.c:37:22: style: The scope of the variable 'lambdaCoarseLeft' can be reduced. [variableScope]
+        unsigned int lambdaCoarseLeft;
+                     ^
+src/init/linking.c:38:22: style: The scope of the variable 'lambdaCoarseRight' can be reduced. [variableScope]
+        unsigned int lambdaCoarseRight;
+                     ^
+src/init/linking.c:39:22: style: The scope of the variable 'lambdaFineLeft' can be reduced. [variableScope]
+        unsigned int lambdaFineLeft;
+                     ^
+src/init/linking.c:40:22: style: The scope of the variable 'lambdaFineRight' can be reduced. [variableScope]
+        unsigned int lambdaFineRight;
+                     ^
+src/init/linking.c:45:22: style: The scope of the variable 'iCoarse' can be reduced. [variableScope]
+        unsigned int iCoarse;
+                     ^
+src/init/linking.c:47:22: style: The scope of the variable 'iMatch' can be reduced. [variableScope]
+        unsigned int iMatch;
+                     ^
+src/init/linking.c:50:22: style: The scope of the variable 'nCoarses' can be reduced. [variableScope]
+        unsigned int nCoarses;
+                     ^
+src/init/linking.c:53:14: style: The scope of the variable 'isActive' can be reduced. [variableScope]
+        char isActive;
+             ^
+src/init/linking.c:55:15: style: The scope of the variable 'maxValue' can be reduced. [variableScope]
+        float maxValue;
+              ^
+src/init/linking.c:56:22: style: The scope of the variable 'maxIndex' can be reduced. [variableScope]
+        unsigned int maxIndex;
+                     ^
+src/init/linking.c:220:15: style: The scope of the variable 'lambdaMaxLeft' can be reduced. [variableScope]
+        float lambdaMaxLeft;
+              ^
+src/init/linking.c:221:15: style: The scope of the variable 'lambdaMinRight' can be reduced. [variableScope]
+        float lambdaMinRight;
+              ^
+src/init/linking.c:42:15: style: Unused variable: score [unusedVariable]
+        float score;
+              ^
+src/init/scanning.c:39:28: style: The scope of the variable 'spatialgains' can be reduced. [variableScope]
+        spatialgains_obj * spatialgains;
+                           ^
+src/init/scanning.c:41:21: style: The scope of the variable 'pairs' can be reduced. [variableScope]
+        pairs_obj * pairs;
+                    ^
+src/init/space.c:305:15: style: The scope of the variable 'norm1' can be reduced. [variableScope]
+        float norm1;
+              ^
+src/init/space.c:306:15: style: The scope of the variable 'norm2' can be reduced. [variableScope]
+        float norm2;
+              ^
+src/init/space.c:307:15: style: The scope of the variable 'norm3' can be reduced. [variableScope]
+        float norm3;
+              ^
+src/init/space.c:422:15: style: The scope of the variable 'xR' can be reduced. [variableScope]
+        float xR, yR, zR;
+              ^
+src/init/space.c:422:19: style: The scope of the variable 'yR' can be reduced. [variableScope]
+        float xR, yR, zR;
+                  ^
+src/init/space.c:422:23: style: The scope of the variable 'zR' can be reduced. [variableScope]
+        float xR, yR, zR;
+                      ^
+src/init/space.c:425:15: style: The scope of the variable 'theta' can be reduced. [variableScope]
+        float theta;
+              ^
+src/init/space.c:426:15: style: The scope of the variable 'R11' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+              ^
+src/init/space.c:426:20: style: The scope of the variable 'R12' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                   ^
+src/init/space.c:426:25: style: The scope of the variable 'R13' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                        ^
+src/init/space.c:426:30: style: The scope of the variable 'R21' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                             ^
+src/init/space.c:426:35: style: The scope of the variable 'R22' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                                  ^
+src/init/space.c:426:40: style: The scope of the variable 'R23' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                                       ^
+src/init/space.c:426:45: style: The scope of the variable 'R31' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                                            ^
+src/init/space.c:426:50: style: The scope of the variable 'R32' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                                                 ^
+src/init/space.c:426:55: style: The scope of the variable 'R33' can be reduced. [variableScope]
+        float R11, R12, R13, R21, R22, R23, R31, R32, R33;
+                                                      ^
+src/init/space.c:428:15: style: The scope of the variable 'norm' can be reduced. [variableScope]
+        float norm;
+              ^
+src/init/space.c:684:25: style: The scope of the variable 'triangles1' can be reduced. [variableScope]
+        triangles_obj * triangles1;
+                        ^
+src/init/space.c:686:22: style: The scope of the variable 'pointsFine' can be reduced. [variableScope]
+        points_obj * pointsFine;
+                     ^
+src/init/space.c:793:15: style: The scope of the variable 'x1' can be reduced. [variableScope]
+        float x1, y1, z1;
+              ^
+src/init/space.c:793:19: style: The scope of the variable 'y1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                  ^
+src/init/space.c:793:23: style: The scope of the variable 'z1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                      ^
+src/init/space.c:794:15: style: The scope of the variable 'x2' can be reduced. [variableScope]
+        float x2, y2, z2;
+              ^
+src/init/space.c:794:19: style: The scope of the variable 'y2' can be reduced. [variableScope]
+        float x2, y2, z2;
+                  ^
+src/init/space.c:794:23: style: The scope of the variable 'z2' can be reduced. [variableScope]
+        float x2, y2, z2;
+                      ^
+src/init/space.c:795:15: style: The scope of the variable 'x3' can be reduced. [variableScope]
+        float x3, y3, z3;
+              ^
+src/init/space.c:795:19: style: The scope of the variable 'y3' can be reduced. [variableScope]
+        float x3, y3, z3;
+                  ^
+src/init/space.c:795:23: style: The scope of the variable 'z3' can be reduced. [variableScope]
+        float x3, y3, z3;
+                      ^
+src/init/space.c:796:15: style: The scope of the variable 'dist12' can be reduced. [variableScope]
+        float dist12, dist23, dist31;
+              ^
+src/init/space.c:796:23: style: The scope of the variable 'dist23' can be reduced. [variableScope]
+        float dist12, dist23, dist31;
+                      ^
+src/init/space.c:796:31: style: The scope of the variable 'dist31' can be reduced. [variableScope]
+        float dist12, dist23, dist31;
+                              ^
+src/init/space.c:838:15: style: The scope of the variable 'x1' can be reduced. [variableScope]
+        float x1, y1, z1;
+              ^
+src/init/space.c:838:19: style: The scope of the variable 'y1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                  ^
+src/init/space.c:838:23: style: The scope of the variable 'z1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                      ^
+src/init/space.c:38:22: style: Unused variable: iTriangle [unusedVariable]
+        unsigned int iTriangle;
+                     ^
+src/init/space.c:420:15: style: Unused variable: tx [unusedVariable]
+        float tx, ty, tz;
+              ^
+src/init/space.c:420:19: style: Unused variable: ty [unusedVariable]
+        float tx, ty, tz;
+                  ^
+src/init/space.c:420:23: style: Unused variable: tz [unusedVariable]
+        float tx, ty, tz;
+                      ^
+src/init/space.c:566:15: style: Unused variable: diff [unusedVariable]
+        float diff, dist;
+              ^
+src/init/space.c:566:21: style: Unused variable: dist [unusedVariable]
+        float diff, dist;
+                    ^
+src/init/space.c:573:22: style: Unused variable: iPointCompare [unusedVariable]
+        unsigned int iPointCompare;
+                     ^
+src/init/windowing.c:35:22: style: The scope of the variable 'iSample' can be reduced. [variableScope]
+        unsigned int iSample;
+                     ^
+src/init/windowing.c:62:22: style: The scope of the variable 'iSample' can be reduced. [variableScope]
+        unsigned int iSample;
+                     ^
+src/module/mod_mapping.c:35:22: style: Unused variable: iLink [unusedVariable]
+        unsigned int iLink;
+                     ^
+src/module/mod_ssl.c:162:22: style: The scope of the variable 'iPot' can be reduced. [variableScope]
+        unsigned int iPot;
+                     ^
+src/module/mod_ssl.c:163:22: style: The scope of the variable 'iLevel' can be reduced. [variableScope]
+        unsigned int iLevel;
+                     ^
+src/module/mod_ssl.c:164:22: style: The scope of the variable 'iPoint' can be reduced. [variableScope]
+        unsigned int iPoint;
+                     ^
+src/module/mod_ssl.c:166:15: style: The scope of the variable 'maxValue' can be reduced. [variableScope]
+        float maxValue;
+              ^
+src/module/mod_ssl.c:167:22: style: The scope of the variable 'maxIndex' can be reduced. [variableScope]
+        unsigned int maxIndex;
+                     ^
+src/module/mod_ssl.c:36:22: style: Unused variable: iPot [unusedVariable]
+        unsigned int iPot;
+                     ^
+src/module/mod_ssl.c:38:22: style: Unused variable: points [unusedVariable]
+        points_obj * points;
+                     ^
+src/module/mod_ssl.c:125:22: style: Unused variable: iPot [unusedVariable]
+        unsigned int iPot;
+                     ^
+src/module/mod_sst.c:393:22: style: The scope of the variable 'iPot' can be reduced. [variableScope]
+        unsigned int iPot;
+                     ^
+src/module/mod_sst.c:394:22: style: The scope of the variable 'iTrackMax' can be reduced. [variableScope]
+        unsigned int iTrackMax;
+                     ^
+src/module/mod_sst.c:395:22: style: The scope of the variable 'iTrack' can be reduced. [variableScope]
+        unsigned int iTrack;
+                     ^
+src/module/mod_sst.c:396:22: style: The scope of the variable 'iTargetMax' can be reduced. [variableScope]
+        unsigned int iTargetMax;
+                     ^
+src/module/mod_sst.c:398:15: style: The scope of the variable 'sourceActivity' can be reduced. [variableScope]
+        float sourceActivity;
+              ^
+src/module/mod_sst.c:400:14: style: The scope of the variable 'targetFound' can be reduced. [variableScope]
+        char targetFound;
+             ^
+src/signal/aimg.c:55:22: style: Unused variable: iSignal [unusedVariable]
+        unsigned int iSignal;
+                     ^
+src/signal/mixture.c:119:13: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+            printf("  phi = %d: ",iTrackNewFalse-2);
+            ^
+src/signal/mixture.c:131:13: warning: %d in format string (no. 1) requires 'int' but the argument type is 'unsigned int'. [invalidPrintfArgType_sint]
+            printf("  phi = %d: ",iTrackNewFalse-2);
+            ^
+src/source/src_hops.c:489:8: style: Suspicious condition (assignment + comparison); Clarify expression with parentheses. [clarifyCondition]
+    if (err = snd_pcm_readi(obj->ch, obj->buffer, obj->hopSize) > 0) {
+       ^
+src/source/src_hops.c:34:18: style: Unused variable: nBytes [unusedVariable]
+    unsigned int nBytes;
+                 ^
+src/source/src_hops.c:489:13: style: Variable 'err' is assigned a value that is never used. [unreadVariable]
+    if (err = snd_pcm_readi(obj->ch, obj->buffer, obj->hopSize) > 0) {
+            ^
+src/source/src_hops.c:485:18: style: Unused variable: nSamples [unusedVariable]
+    unsigned int nSamples;
+                 ^
+src/system/acorr2pitch.c:63:15: style: The scope of the variable 'maxValue' can be reduced. [variableScope]
+        float maxValue;
+              ^
+src/system/acorr2pitch.c:66:14: style: The scope of the variable 'peakFound' can be reduced. [variableScope]
+        char peakFound;
+             ^
+src/system/env2env.c:58:13: error: Uninitialized variable: bTotal [uninitvar]
+            bTotal += (float) (obj->b[n]);
+            ^
+src/system/freq2xcorr.c:62:22: style: Unused variable: iSample [unusedVariable]
+        unsigned int iSample;
+                     ^
+src/system/freq2xcorr.c:63:22: style: Unused variable: iSampleSrc [unusedVariable]
+        unsigned int iSampleSrc;
+                     ^
+src/system/freq2xcorr.c:64:22: style: Unused variable: iSampleDest [unusedVariable]
+        unsigned int iSampleDest;
+                     ^
+src/system/hop2hop.c:129:22: style: The scope of the variable 'iWriteInt' can be reduced. [variableScope]
+        unsigned int iWriteInt;
+                     ^
+src/system/hop2hop.c:131:22: style: The scope of the variable 'iHop1' can be reduced. [variableScope]
+        unsigned int iHop1;
+                     ^
+src/system/hop2hop.c:132:22: style: The scope of the variable 'iBuffer1' can be reduced. [variableScope]
+        unsigned int iBuffer1;
+                     ^
+src/system/hop2hop.c:133:22: style: The scope of the variable 'nSamples1' can be reduced. [variableScope]
+        unsigned int nSamples1;
+                     ^
+src/system/hop2hop.c:134:22: style: The scope of the variable 'iHop2' can be reduced. [variableScope]
+        unsigned int iHop2;
+                     ^
+src/system/hop2hop.c:135:22: style: The scope of the variable 'iBuffer2' can be reduced. [variableScope]
+        unsigned int iBuffer2;
+                     ^
+src/system/hop2hop.c:136:22: style: The scope of the variable 'nSamples2' can be reduced. [variableScope]
+        unsigned int nSamples2;
+                     ^
+src/system/hop2hop.c:138:22: style: The scope of the variable 'iSignal' can be reduced. [variableScope]
+        unsigned int iSignal;
+                     ^
+src/system/hop2hop.c:190:22: style: The scope of the variable 'iSample' can be reduced. [variableScope]
+        unsigned int iSample;
+                     ^
+src/system/hop2hop.c:191:22: style: The scope of the variable 'iReadFloor' can be reduced. [variableScope]
+        unsigned int iReadFloor;
+                     ^
+src/system/hop2hop.c:192:22: style: The scope of the variable 'iReadCeil' can be reduced. [variableScope]
+        unsigned int iReadCeil;
+                     ^
+src/system/hop2hop.c:193:16: style: The scope of the variable 'yFloor' can be reduced. [variableScope]
+        double yFloor;
+               ^
+src/system/hop2hop.c:194:16: style: The scope of the variable 'yCeil' can be reduced. [variableScope]
+        double yCeil;
+               ^
+src/system/hop2hop.c:195:16: style: The scope of the variable 'yDelta' can be reduced. [variableScope]
+        double yDelta;
+               ^
+src/system/hop2hop.c:196:16: style: The scope of the variable 'xDelta' can be reduced. [variableScope]
+        double xDelta;
+               ^
+src/system/hop2hop.c:198:22: style: The scope of the variable 'iSignal' can be reduced. [variableScope]
+        unsigned int iSignal;
+                     ^
+src/system/kalman2coherence.c:134:15: style: The scope of the variable 'B1' can be reduced. [variableScope]
+        float B1, B2, B3, B4;
+              ^
+src/system/kalman2coherence.c:134:19: style: The scope of the variable 'B2' can be reduced. [variableScope]
+        float B1, B2, B3, B4;
+                  ^
+src/system/kalman2coherence.c:134:27: style: The scope of the variable 'B4' can be reduced. [variableScope]
+        float B1, B2, B3, B4;
+                          ^
+src/system/kalman2coherence.c:135:15: style: The scope of the variable 'weight' can be reduced. [variableScope]
+        float weight;
+              ^
+src/system/particle2coherence.c:57:15: style: The scope of the variable 'total' can be reduced. [variableScope]
+        float total;
+              ^
+src/system/particle2coherence.c:58:15: style: The scope of the variable 'x1' can be reduced. [variableScope]
+        float x1, y1, z1;
+              ^
+src/system/particle2coherence.c:58:19: style: The scope of the variable 'y1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                  ^
+src/system/particle2coherence.c:58:23: style: The scope of the variable 'z1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                      ^
+src/system/particle2coherence.c:62:15: style: Unused variable: expr [unusedVariable]
+        float expr;
+              ^
+src/system/particle2particle.c:148:15: style: The scope of the variable 'a' can be reduced. [variableScope]
+        float a, b;
+              ^
+src/system/particle2particle.c:148:18: style: The scope of the variable 'b' can be reduced. [variableScope]
+        float a, b;
+                 ^
+src/system/particle2particle.c:179:15: style: The scope of the variable 'x1' can be reduced. [variableScope]
+        float x1, y1, z1;
+              ^
+src/system/particle2particle.c:179:19: style: The scope of the variable 'y1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                  ^
+src/system/particle2particle.c:179:23: style: The scope of the variable 'z1' can be reduced. [variableScope]
+        float x1, y1, z1;
+                      ^
+src/system/particle2particle.c:183:15: style: The scope of the variable 'postprob' can be reduced. [variableScope]
+        float postprob;
+              ^
+src/system/particle2particle.c:186:15: style: The scope of the variable 'p_x_O' can be reduced. [variableScope]
+        float p_x_O;
+              ^
+src/system/particle2particle.c:198:15: style: Variable 'scale' is assigned a value that is never used. [unreadVariable]
+        scale = obj->expScale;
+              ^
+src/system/pitch2category.c:98:15: style: Unused variable: deltaPitch [unusedVariable]
+        float deltaPitch;
+              ^
+src/system/steer2demixing.c:297:22: style: The scope of the variable 'iBin' can be reduced. [variableScope]
+        unsigned int iBin;
+                     ^
+src/system/steer2demixing.c:298:22: style: The scope of the variable 'iChannel' can be reduced. [variableScope]
+        unsigned int iChannel;
+                     ^
+src/system/steer2demixing.c:300:22: style: The scope of the variable 'iActiveSource' can be reduced. [variableScope]
+        unsigned int iActiveSource;
+                     ^
+src/system/steer2demixing.c:301:22: style: The scope of the variable 'iSampleSC' can be reduced. [variableScope]
+        unsigned int iSampleSC;
+                     ^
+src/system/steer2demixing.c:302:22: style: The scope of the variable 'iSampleBC' can be reduced. [variableScope]
+        unsigned int iSampleBC;
+                     ^
+src/system/steer2demixing.c:303:22: style: The scope of the variable 'iSampleAC' can be reduced. [variableScope]
+        unsigned int iSampleAC;
+                     ^
+src/system/steer2demixing.c:304:22: style: The scope of the variable 'iSampleCA' can be reduced. [variableScope]
+        unsigned int iSampleCA;
+                     ^
+src/system/steer2demixing.c:306:15: style: The scope of the variable 'Areal' can be reduced. [variableScope]
+        float Areal;
+              ^
+src/system/steer2demixing.c:307:15: style: The scope of the variable 'Aimag' can be reduced. [variableScope]
+        float Aimag;
+              ^
+src/system/steer2demixing.c:308:15: style: The scope of the variable 'Wreal' can be reduced. [variableScope]
+        float Wreal;
+              ^
+src/system/steer2demixing.c:309:15: style: The scope of the variable 'Wimag' can be reduced. [variableScope]
+        float Wimag;
+              ^
+src/system/steer2demixing.c:310:15: style: The scope of the variable 'gain2' can be reduced. [variableScope]
+        float gain2;
+              ^
+src/system/steer2demixing.c:311:15: style: The scope of the variable 'Xreal' can be reduced. [variableScope]
+        float Xreal;
+              ^
+src/system/steer2demixing.c:312:15: style: The scope of the variable 'Ximag' can be reduced. [variableScope]
+        float Ximag;
+              ^
+src/system/steer2demixing.c:313:15: style: The scope of the variable 'X2' can be reduced. [variableScope]
+        float X2;
+              ^
+src/system/steer2demixing.c:314:15: style: The scope of the variable 'Rxx2' can be reduced. [variableScope]
+        float Rxx2;
+              ^
+src/system/steer2demixing.c:315:15: style: The scope of the variable 'alpha' can be reduced. [variableScope]
+        float alpha;
+              ^
+src/system/steer2demixing.c:343:31: style: Variable 'iSampleBC' is assigned a value that is never used. [unreadVariable]
+                    iSampleBC = iBin * obj->nChannels + iChannel;
+                              ^
+src/system/steer2demixing.c:392:43: style: Variable 'iSampleAC' is assigned a value that is never used. [unreadVariable]
+                                iSampleAC = iActiveSource * obj->nChannels + iChannel;
+                                          ^
+src/system/track2gain.c:94:35: style: Checking if unsigned expression 'iThetaMic' is less than zero. [unsignedLessThanZero]
+                    if (iThetaMic < 0) {
+                                  ^
+src/system/track2gain.c:61:22: style: Unused variable: iThetaFilter [unusedVariable]
+        unsigned int iThetaFilter;
+                     ^
+src/system/track2steer.c:64:22: style: Unused variable: iBin [unusedVariable]
+        unsigned int iBin;
+                     ^
+src/system/xcorr2aimg.c:55:22: style: The scope of the variable 'iPoint' can be reduced. [variableScope]
+        unsigned int iPoint;
+                     ^
+src/utils/gaussian.c:58:89: style: Same expression on both sides of '/'. [duplicateExpression]
+        obj->scaleFactor = (obj->weight / (obj->sigma_x*obj->sigma_y * powf(2*M_PI,(2.0f/2.0f))));
+                                                                                        ^
+src/utils/gaussian.c:109:89: style: Same expression on both sides of '/'. [duplicateExpression]
+        obj->scaleFactor = (obj->weight / (obj->sigma_x*obj->sigma_y * powf(2*M_PI,(2.0f/2.0f))));
+                                                                                        ^
+src/utils/gaussian.c:160:89: style: Same expression on both sides of '/'. [duplicateExpression]
+        obj->scaleFactor = (obj->weight / (obj->sigma_x*obj->sigma_y * powf(2*M_PI,(2.0f/2.0f))));
+                                                                                        ^
+src/utils/gaussjordan.c:66:14: style: The scope of the variable 'nonZero' can be reduced. [variableScope]
+        char nonZero;
+             ^
+src/utils/gaussjordan.c:71:15: style: The scope of the variable 'gain' can be reduced. [variableScope]
+        float gain;
+              ^
+src/utils/matrix.c:236:31: style: The if condition is the same as the previous if condition [duplicateCondition]
+        if ((obj->nRows == 3) && (obj->nCols == 3)) {
+                              ^
+src/utils/matrix.c:225:31: note: First condition
+        if ((obj->nRows == 3) && (obj->nCols == 3)) {
+                              ^
+src/utils/matrix.c:236:31: note: Second condition
+        if ((obj->nRows == 3) && (obj->nCols == 3)) {
+                              ^
+src/utils/matrix.c:171:25: style: The scope of the variable 'a02' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                        ^
+src/utils/matrix.c:171:40: style: The scope of the variable 'a12' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                       ^
+src/utils/matrix.c:171:45: style: The scope of the variable 'a20' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                            ^
+src/utils/matrix.c:171:50: style: The scope of the variable 'a21' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                                 ^
+src/utils/matrix.c:171:55: style: The scope of the variable 'a22' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                                      ^
+src/utils/matrix.c:220:25: style: The scope of the variable 'a02' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                        ^
+src/utils/matrix.c:220:40: style: The scope of the variable 'a12' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                       ^
+src/utils/matrix.c:220:45: style: The scope of the variable 'a20' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                            ^
+src/utils/matrix.c:220:50: style: The scope of the variable 'a21' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                                 ^
+src/utils/matrix.c:220:55: style: The scope of the variable 'a22' can be reduced. [variableScope]
+        float a00, a01, a02, a10, a11, a12, a20, a21, a22;
+                                                      ^
+src/utils/matrix.c:35:22: style: Unused variable: iRow [unusedVariable]
+        unsigned int iRow;
+                     ^
+src/utils/matrix.c:36:22: style: Unused variable: iCol [unusedVariable]
+        unsigned int iCol;
+                     ^
+src/utils/matrix.c:54:22: style: Unused variable: iRow [unusedVariable]
+        unsigned int iRow;
+                     ^
+src/utils/matrix.c:55:22: style: Unused variable: iCol [unusedVariable]
+        unsigned int iCol;
+                     ^
+src/utils/matrix.c:71:22: style: Unused variable: iRow [unusedVariable]
+        unsigned int iRow;
+                     ^
+src/utils/matrix.c:72:22: style: Unused variable: iCol [unusedVariable]
+        unsigned int iCol;
+                     ^
+src/utils/matrix.c:80:22: style: Unused variable: iRow [unusedVariable]
+        unsigned int iRow;
+                     ^
+src/utils/matrix.c:81:22: style: Unused variable: iCol [unusedVariable]
+        unsigned int iCol;
+                     ^
+src/utils/pcm.c:98:14: style: The scope of the variable 'high' can be reduced. [variableScope]
+        char high;
+             ^
+src/utils/pcm.c:99:14: style: The scope of the variable 'low' can be reduced. [variableScope]
+        char low;
+             ^
+src/utils/random.c:87:16: style: The scope of the variable 'rndNumber' can be reduced. [variableScope]
+         float rndNumber;
+               ^
+src/utils/random.c:89:23: style: The scope of the variable 'indexLow' can be reduced. [variableScope]
+         unsigned int indexLow;
+                      ^
+src/utils/random.c:90:23: style: The scope of the variable 'indexHigh' can be reduced. [variableScope]
+         unsigned int indexHigh;
+                      ^
+src/utils/random.c:149:16: style: The scope of the variable 'z0' can be reduced. [variableScope]
+        double z0, z1;
+               ^
+src/utils/random.c:205:22: style: The scope of the variable 'index' can be reduced. [variableScope]
+        unsigned int index;
+                     ^
+src/utils/random.c:176:22: style: Unused variable: n [unusedVariable]
+        unsigned int n;
+                     ^
+src/signal/acorr.c:71:0: style: The function 'acorrs_copy' is never used. [unusedFunction]
+
+^
+src/signal/acorr.c:95:0: style: The function 'acorrs_printf' is never used. [unusedFunction]
+
+^
+src/signal/acorr.c:83:0: style: The function 'acorrs_zero' is never used. [unusedFunction]
+
+^
+src/signal/aimg.c:53:0: style: The function 'aimg_printf' is never used. [unusedFunction]
+
+^
+src/ainjector/ainj_targets.c:65:0: style: The function 'ainj_targets_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_classify.c:83:0: style: The function 'amod_classify_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_classify.c:69:0: style: The function 'amod_classify_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_istft.c:80:0: style: The function 'amod_istft_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_istft.c:67:0: style: The function 'amod_istft_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_mapping.c:80:0: style: The function 'amod_mapping_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_mapping.c:67:0: style: The function 'amod_mapping_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_noise.c:80:0: style: The function 'amod_noise_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_noise.c:67:0: style: The function 'amod_noise_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_resample.c:80:0: style: The function 'amod_resample_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_resample.c:67:0: style: The function 'amod_resample_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_ssl.c:80:0: style: The function 'amod_ssl_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_ssl.c:67:0: style: The function 'amod_ssl_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_sss.c:89:0: style: The function 'amod_sss_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_sss.c:73:0: style: The function 'amod_sss_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_sst.c:83:0: style: The function 'amod_sst_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_sst.c:69:0: style: The function 'amod_sst_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_stft.c:80:0: style: The function 'amod_stft_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_stft.c:67:0: style: The function 'amod_stft_disconnect' is never used. [unusedFunction]
+
+^
+src/amodule/amod_volume.c:80:0: style: The function 'amod_volume_disable' is never used. [unusedFunction]
+
+^
+src/amodule/amod_volume.c:67:0: style: The function 'amod_volume_disconnect' is never used. [unusedFunction]
+
+^
+src/signal/area.c:108:0: style: The function 'area_printf' is never used. [unusedFunction]
+
+^
+src/signal/area.c:56:0: style: The function 'areas_printf' is never used. [unusedFunction]
+
+^
+src/asink/asnk_categories.c:62:0: style: The function 'asnk_categories_disconnect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_hops.c:62:0: style: The function 'asnk_hops_disconnect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_pots.c:62:0: style: The function 'asnk_pots_disconnect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_powers.c:56:0: style: The function 'asnk_powers_connect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_powers.c:32:0: style: The function 'asnk_powers_construct' is never used. [unusedFunction]
+
+^
+src/asink/asnk_powers.c:47:0: style: The function 'asnk_powers_destroy' is never used. [unusedFunction]
+
+^
+src/asink/asnk_powers.c:62:0: style: The function 'asnk_powers_disconnect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_spectra.c:56:0: style: The function 'asnk_spectra_connect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_spectra.c:32:0: style: The function 'asnk_spectra_construct' is never used. [unusedFunction]
+
+^
+src/asink/asnk_spectra.c:47:0: style: The function 'asnk_spectra_destroy' is never used. [unusedFunction]
+
+^
+src/asink/asnk_spectra.c:62:0: style: The function 'asnk_spectra_disconnect' is never used. [unusedFunction]
+
+^
+src/asink/asnk_tracks.c:62:0: style: The function 'asnk_tracks_disconnect' is never used. [unusedFunction]
+
+^
+src/asource/asrc_hops.c:62:0: style: The function 'asrc_hops_disconnect' is never used. [unusedFunction]
+
+^
+src/signal/assignation.c:54:0: style: The function 'assignations_printf' is never used. [unusedFunction]
+
+^
+src/signal/beampattern.c:67:0: style: The function 'beampatterns_printf' is never used. [unusedFunction]
+
+^
+src/signal/category.c:65:0: style: The function 'categories_printf' is never used. [unusedFunction]
+
+^
+src/utils/cmatrix.c:51:0: style: The function 'cmatrix_construct_matrix' is never used. [unusedFunction]
+
+^
+src/utils/cmatrix.c:70:0: style: The function 'cmatrix_copy_zero' is never used. [unusedFunction]
+
+^
+src/utils/cmatrix.c:225:0: style: The function 'cmatrix_printf' is never used. [unusedFunction]
+
+^
+src/utils/cmatrix.c:92:0: style: The function 'cmatrix_transpose' is never used. [unusedFunction]
+
+^
+src/signal/coherence.c:52:0: style: The function 'coherences_printf' is never used. [unusedFunction]
+
+^
+src/signal/delta.c:46:0: style: The function 'deltas_clone' is never used. [unusedFunction]
+
+^
+src/signal/delta.c:67:0: style: The function 'deltas_printf' is never used. [unusedFunction]
+
+^
+src/signal/demixing.c:91:0: style: The function 'demixings_printf' is never used. [unusedFunction]
+
+^
+src/signal/demixing.c:81:0: style: The function 'demixings_zero' is never used. [unusedFunction]
+
+^
+src/system/env2env.c:364:0: style: The function 'env2env_weight_construct_zero' is never used. [unusedFunction]
+
+^
+src/system/env2env.c:395:0: style: The function 'env2env_weight_destroy' is never used. [unusedFunction]
+
+^
+src/system/env2env.c:413:0: style: The function 'env2env_weight_process' is never used. [unusedFunction]
+
+^
+src/signal/env.c:52:0: style: The function 'envs_clone' is never used. [unusedFunction]
+
+^
+src/signal/env.c:105:0: style: The function 'envs_printf' is never used. [unusedFunction]
+
+^
+src/utils/fifo.c:110:0: style: The function 'fifo_printf' is never used. [unusedFunction]
+
+^
+src/signal/frame.c:52:0: style: The function 'frames_clone' is never used. [unusedFunction]
+
+^
+src/signal/frame.c:85:0: style: The function 'frames_printf' is never used. [unusedFunction]
+
+^
+src/system/freq2freq.c:74:0: style: The function 'freq2freq_weightedphasor_construct_zero' is never used. [unusedFunction]
+
+^
+src/system/freq2freq.c:87:0: style: The function 'freq2freq_weightedphasor_destroy' is never used. [unusedFunction]
+
+^
+src/system/freq2freq.c:93:0: style: The function 'freq2freq_weightedphasor_process' is never used. [unusedFunction]
+
+^
+src/signal/freq.c:52:0: style: The function 'freqs_clone' is never used. [unusedFunction]
+
+^
+src/signal/freq.c:105:0: style: The function 'freqs_printf' is never used. [unusedFunction]
+
+^
+src/signal/gain.c:55:0: style: The function 'gains_printf' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:32:0: style: The function 'gaussian_1d_construct_zero' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:282:0: style: The function 'gaussian_1d_printf' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:98:0: style: The function 'gaussian_2d_construct_weigthmusigma' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:47:0: style: The function 'gaussian_2d_construct_zero' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:288:0: style: The function 'gaussian_2d_printf' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:115:0: style: The function 'gaussian_3d_construct_weightmusigma' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:64:0: style: The function 'gaussian_3d_construct_zero' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:294:0: style: The function 'gaussian_3d_printf' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:372:0: style: The function 'gaussians_2d_construct_gaussians' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:318:0: style: The function 'gaussians_2d_construct_null' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:426:0: style: The function 'gaussians_2d_destroy' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:479:0: style: The function 'gaussians_2d_eval' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:538:0: style: The function 'gaussians_2d_printf' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:390:0: style: The function 'gaussians_3d_construct_gaussians' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:336:0: style: The function 'gaussians_3d_construct_null' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:444:0: style: The function 'gaussians_3d_destroy' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:496:0: style: The function 'gaussians_3d_eval' is never used. [unusedFunction]
+
+^
+src/utils/gaussian.c:563:0: style: The function 'gaussians_3d_printf' is never used. [unusedFunction]
+
+^
+src/signal/hop.c:52:0: style: The function 'hops_clone' is never used. [unusedFunction]
+
+^
+src/signal/hop.c:105:0: style: The function 'hops_printf' is never used. [unusedFunction]
+
+^
+src/signal/impulse.c:32:0: style: The function 'impulse_construct' is never used. [unusedFunction]
+
+^
+src/signal/impulse.c:46:0: style: The function 'impulse_destroy' is never used. [unusedFunction]
+
+^
+src/signal/index.c:57:0: style: The function 'indexes_printf' is never used. [unusedFunction]
+
+^
+src/injector/inj_targets.c:121:0: style: The function 'inj_targets_cfg_printf' is never used. [unusedFunction]
+
+^
+src/utils/inverse.c:85:0: style: The function 'inverse_complex_destroy' is never used. [unusedFunction]
+
+^
+src/utils/inverse.c:32:0: style: The function 'inverse_real_construct_zero' is never used. [unusedFunction]
+
+^
+src/utils/inverse.c:45:0: style: The function 'inverse_real_destroy' is never used. [unusedFunction]
+
+^
+src/utils/inverse.c:52:0: style: The function 'inverse_real_process' is never used. [unusedFunction]
+
+^
+src/signal/map.c:55:0: style: The function 'maps_printf' is never used. [unusedFunction]
+
+^
+src/signal/mask.c:67:0: style: The function 'masks_printf' is never used. [unusedFunction]
+
+^
+src/utils/matrix.c:50:0: style: The function 'matrix_construct_matrix' is never used. [unusedFunction]
+
+^
+src/utils/matrix.c:273:0: style: The function 'matrix_printf' is never used. [unusedFunction]
+
+^
+src/general/mic.c:55:0: style: The function 'mics_clone' is never used. [unusedFunction]
+
+^
+src/signal/mixture.c:82:0: style: The function 'mixture_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_classify.c:185:0: style: The function 'mod_classify_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_istft.c:138:0: style: The function 'mod_istft_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_mapping.c:144:0: style: The function 'mod_mapping_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_noise.c:154:0: style: The function 'mod_noise_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_resample.c:551:0: style: The function 'mod_resample_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_ssl.c:352:0: style: The function 'mod_ssl_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_sss.c:919:0: style: The function 'mod_sss_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_sst.c:1273:0: style: The function 'mod_sst_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_stft.c:139:0: style: The function 'mod_stft_cfg_printf' is never used. [unusedFunction]
+
+^
+src/module/mod_volume.c:133:0: style: The function 'mod_volume_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_categories.c:104:0: style: The function 'msg_categories_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_hops.c:104:0: style: The function 'msg_hops_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_pots.c:103:0: style: The function 'msg_pots_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_powers.c:104:0: style: The function 'msg_powers_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_spectra.c:104:0: style: The function 'msg_spectra_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_targets.c:103:0: style: The function 'msg_targets_cfg_printf' is never used. [unusedFunction]
+
+^
+src/message/msg_tracks.c:102:0: style: The function 'msg_tracks_cfg_printf' is never used. [unusedFunction]
+
+^
+src/signal/pair.c:46:0: style: The function 'pairs_clone' is never used. [unusedFunction]
+
+^
+src/signal/pair.c:67:0: style: The function 'pairs_printf' is never used. [unusedFunction]
+
+^
+src/signal/particle.c:58:0: style: The function 'particles_printf' is never used. [unusedFunction]
+
+^
+src/utils/pcm.c:95:0: style: The function 'pcm_signedXXbits2json' is never used. [unusedFunction]
+
+^
+src/signal/pitch.c:53:0: style: The function 'pitches_copy' is never used. [unusedFunction]
+
+^
+src/signal/pitch.c:65:0: style: The function 'pitches_printf' is never used. [unusedFunction]
+
+^
+src/signal/pitch.c:59:0: style: The function 'pitches_zero' is never used. [unusedFunction]
+
+^
+src/signal/point.c:46:0: style: The function 'points_clone' is never used. [unusedFunction]
+
+^
+src/signal/point.c:67:0: style: The function 'points_printf' is never used. [unusedFunction]
+
+^
+src/signal/postprob.c:63:0: style: The function 'postprobs_printf' is never used. [unusedFunction]
+
+^
+src/signal/pot.c:46:0: style: The function 'pots_clone' is never used. [unusedFunction]
+
+^
+src/signal/pot.c:82:0: style: The function 'pots_printf' is never used. [unusedFunction]
+
+^
+src/general/samplerate.c:45:0: style: The function 'samplerate_clone' is never used. [unusedFunction]
+
+^
+src/sink/snk_powers.c:198:0: style: The function 'snk_powers_cfg_construct' is never used. [unusedFunction]
+
+^
+src/sink/snk_powers.c:212:0: style: The function 'snk_powers_cfg_destroy' is never used. [unusedFunction]
+
+^
+src/sink/snk_spectra.c:203:0: style: The function 'snk_spectra_cfg_construct' is never used. [unusedFunction]
+
+^
+src/sink/snk_spectra.c:217:0: style: The function 'snk_spectra_cfg_destroy' is never used. [unusedFunction]
+
+^
+src/general/soundspeed.c:45:0: style: The function 'soundspeed_clone' is never used. [unusedFunction]
+
+^
+src/init/space.c:835:0: style: The function 'space_distances_shortest_points' is never used. [unusedFunction]
+
+^
+src/init/space.c:742:0: style: The function 'space_halfsphere' is never used. [unusedFunction]
+
+^
+src/general/spatialfilter.c:53:0: style: The function 'spatialfilters_clone' is never used. [unusedFunction]
+
+^
+src/signal/spatialgain.c:48:0: style: The function 'spatialgains_clone' is never used. [unusedFunction]
+
+^
+src/signal/spatialgain.c:71:0: style: The function 'spatialgains_printf' is never used. [unusedFunction]
+
+^
+src/signal/spatialindex.c:51:0: style: The function 'spatialindexes_clone' is never used. [unusedFunction]
+
+^
+src/signal/spatialindex.c:79:0: style: The function 'spatialindexes_printf' is never used. [unusedFunction]
+
+^
+src/signal/spatialmask.c:48:0: style: The function 'spatialmasks_clone' is never used. [unusedFunction]
+
+^
+src/signal/spatialmask.c:71:0: style: The function 'spatialmasks_printf' is never used. [unusedFunction]
+
+^
+src/system/steer2demixing.c:683:0: style: The function 'steer2demixing_mvdr_construct_zero' is never used. [unusedFunction]
+
+^
+src/system/steer2demixing.c:689:0: style: The function 'steer2demixing_mvdr_destroy' is never used. [unusedFunction]
+
+^
+src/system/steer2demixing.c:695:0: style: The function 'steer2demixing_mvdr_process' is never used. [unusedFunction]
+
+^
+src/signal/steer.c:71:0: style: The function 'steers_copy' is never used. [unusedFunction]
+
+^
+src/signal/steer.c:81:0: style: The function 'steers_printf' is never used. [unusedFunction]
+
+^
+src/signal/tau.c:60:0: style: The function 'taus_printf' is never used. [unusedFunction]
+
+^
+src/signal/tdoa.c:63:0: style: The function 'tdoas_printf' is never used. [unusedFunction]
+
+^
+src/signal/track.c:78:0: style: The function 'tracks_clone' is never used. [unusedFunction]
+
+^
+src/signal/track.c:142:0: style: The function 'tracks_printf' is never used. [unusedFunction]
+
+^
+src/signal/triangle.c:53:0: style: The function 'triangles_printf' is never used. [unusedFunction]
+
+^
+src/init/windowing.c:32:0: style: The function 'windowing_hann' is never used. [unusedFunction]
+
+^
+src/signal/xcorr.c:65:0: style: The function 'xcorrs_copy' is never used. [unusedFunction]
+
+^
+src/signal/xcorr.c:85:0: style: The function 'xcorrs_printf' is never used. [unusedFunction]
+
+^
+src/signal/xcorr.c:110:0: style: The function 'xcorrs_printf_signal' is never used. [unusedFunction]
+
+^
+src/signal/xcorr.c:75:0: style: The function 'xcorrs_zero' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingInclude]
+
